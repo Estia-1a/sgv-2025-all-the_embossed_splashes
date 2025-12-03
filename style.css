@@ -18,9 +18,14 @@ section1{
   align-items: center;
   margin: 0 auto; 
 }
-section2 {
-  width: 25;
-  height: 25;
+section2{
+  width: 25px;
+  height: 25px;
+  align-items: flex-start;
+}
+img{
+  width: 25px;
+  height: 25px;
   align-items: flex-start;
 }
 .section-boutons {
