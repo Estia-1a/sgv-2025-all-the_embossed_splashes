@@ -1,5 +1,10 @@
 h1{
-    size: 40px;
+    size: 100px;
     color: blueviolet;
-    align-items: center;
+    text-align: center;
+}
+h2{
+    size: 50px;
+    color: blueviolet;
+    text-align: center;
 }
