@@ -20,4 +20,5 @@ section {
 section2 {
   width: 250;
   height: 250;
+  align-items: flex-start;
 }
