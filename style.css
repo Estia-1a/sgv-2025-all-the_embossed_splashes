@@ -12,7 +12,8 @@ h2{
 
 section {
   display: block;
-  width: 400px;
-  height: 160px;
+  width: 900px;
+  height: 450px;
   background: blue;
+  align-items: center;
 }
