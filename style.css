@@ -10,12 +10,13 @@ h2{
 }
 
 
-section {
+section1{
   display: block;
   width: 900px;
   height: 450px;
   background: blue;
   align-items: center;
+  margin: 0 auto; 
 }
 section2 {
   width: 250;

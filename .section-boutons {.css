@@ -1,0 +1,22 @@
+.section-boutons {
+    padding: 20px;
+    background: red;
+    border-radius: 12px;
+    width: 350px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.section-boutons a {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 5px;
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.section-boutons a:hover {
+    background-color: green;
+}
