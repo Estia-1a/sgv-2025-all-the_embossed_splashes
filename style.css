@@ -16,6 +16,7 @@ section1{
   height: 450px;
   background: blue;
   align-items: center;
+  margin: 0 auto; 
 }
 section2 {
   width: 250;
