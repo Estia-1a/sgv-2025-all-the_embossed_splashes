@@ -16,24 +16,28 @@ h2{
 
 }
 
-.titre{
-  margin-top: auto;
-}
-
 header {
   display: flex;
-  align-items: center;
-  gap: 20px;
-  padding: 10px 20px;
+  align-items: center;       
+  gap: 250px;
+  padding: 20px;
 }
 
 header img {
-  height: 60px;
-  width: auto;
+  height: 100px;              
+  width: auto;                
+}
+
+.titre {
+  display: flex;
+  flex-direction: column;   
+  justify-content: center;   
 }
 
 .titre h1,
 .titre h2 {
-  margin: 0;
+  margin: 0;                  
+  line-height: 1.2;
 }
+
 
