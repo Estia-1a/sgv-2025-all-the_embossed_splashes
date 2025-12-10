@@ -20,8 +20,20 @@ h2{
   margin-top: auto;
 }
 
-header{
+header {
+  display: flex;
   align-items: center;
-  flex: auto;
-
+  gap: 20px;
+  padding: 10px 20px;
 }
+
+header img {
+  height: 60px;
+  width: auto;
+}
+
+.titre h1,
+.titre h2 {
+  margin: 0;
+}
+
