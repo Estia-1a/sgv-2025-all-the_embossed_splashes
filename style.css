@@ -77,5 +77,48 @@ header img {
     cursor: pointer;
     font-size: 14px;
 }
+.profile-menu {
+    position: relative;
+    display: inline-block;
+}
+
+.profile-icon {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+/* Le menu déroulant est caché au départ */
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 50px;              /* sous l’icône */
+    right: 0;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px 0;
+    width: 150px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.15);
+}
+
+/* Style des liens */
+.dropdown a {
+    display: block;
+    padding: 10px 15px;
+    color: #333;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+
+.dropdown a:hover {
+    background: #f2f2f2;
+}
+
+/* Affichage du menu au survol */
+.profile-menu:hover .dropdown {
+    display: block;
+}
+
 
 
