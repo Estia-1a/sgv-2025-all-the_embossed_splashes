@@ -19,3 +19,9 @@ h2{
 .titre{
   margin-top: auto;
 }
+
+header{
+  align-items: center;
+  flex: auto;
+
+}
