@@ -3,77 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="style.css"> 
-    
     <title>Katxaow covoit</title>
-</head>
-<body>
-    <header>
-        <img src="media/pictures/drapeau.png">
-        <section class="titre">
-            <h1><b>Katachaow</b></h1>
-            <h2>Covoiturage 100% Basque</h2>
-        </section>
-        <div class="profile-menu">
-            <img src="media/pictures/icone profil.png" class="profile-icon">
 
-            <div class="dropdown">
-                <a href="#">Se connecter</a>
-                <a href="#">Créer un compte</a>
-             </div>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <img src="media/pictures/drapeau.png" alt="Drapeau basque">
+
+    <section class="titre">
+        <h1>Katxaow</h1>
+        <h2>Covoiturage 100% Basque</h2>
+    </section>
+
+    <nav class="profile-menu">
+        <img src="media/pictures/icone profil.png" alt="Icône de profil" class="profile-icon">
+
+        <div class="dropdown">
+            <a href="#">Se connecter</a>
+            <a href="#">Créer un compte</a>
+        </div>
+    </nav>
+</header>
+
+<main>
+
+    <section class="logo estia">
+        <img src="media/pictures/logo-estia.png" alt="Logo ESTIA">
+    </section>
+
+    <section class="paragraphe">
+        <p>
+            Bienvenue sur Katxaow, le covoiturage simple, économique et convivial.
+            Envie de voyager autrement ? Katxaow met en relation conducteurs et passagers
+            pour partager leurs trajets du quotidien ou de longue distance.
+            <br><br>
+            Que vous cherchiez à réduire vos frais, faire un geste pour la planète ou simplement
+            profiter d’un moment convivial sur la route, notre plateforme vous accompagne à chaque étape.
+            <br><br>
+            Grâce à une interface intuitive, trouvez rapidement un trajet qui vous correspond,
+            réservez en quelques clics et partez en toute confiance.
+            <br><br>
+            Moins de frais, moins d’émissions, plus de rencontres — le covoiturage, c’est tout bénéfice !
+        </p>
+    </section>
+
+    <section class="search-bar">
+
+        <div class="field">
+            <span class="icon" aria-hidden="true">📍</span>
+            <input type="text" name="destination" placeholder="Destination" aria-label="Destination">
         </div>
 
-    </header>
-    
-    <section class="logo estia">
-    <img src="media/pictures/logo-estia.png" alt="Logo du site">
+        <div class="field">
+            <span class="icon" aria-hidden="true">📍</span>
+            <input type="text" name="depart" placeholder="Départ" aria-label="Départ">
+        </div>
+
+        <div class="label-box">
+            Sélectionner une date
+        </div>
+
+        <div class="field">
+            <input type="text" name="date" placeholder="JJ / MM / AAAA" aria-label="Date">
+        </div>
+
+        <span class="icon" aria-hidden="true">📅</span>
+        <span class="icon" aria-hidden="true">🕒</span>
+
+        <button type="button" class="search-btn">
+            Rechercher 🔍
+        </button>
+
     </section>
-    <section class="paragraphe"> <p>Bienvenue sur Katxaow, le covoiturage simple, économique et convivial
-Envie de voyager autrement ? Katxaow met en relation conducteurs et passagers pour partager leurs trajets du 
-quotidien ou de longue distance. Que vous cherchiez à réduire vos frais, faire un geste pour la planète ou simplement 
-profiter d’un moment convivial sur la route, notre plateforme vous accompagne à chaque étape.
-Grâce à une interface intuitive, trouvez rapidement un trajet qui vous correspond, réservez en quelques clics et partez
-en toute confiance. Chaque conducteur et passager dispose d’un profil vérifié et d’avis pour garantir transparence et 
-sécurité.
-Moins de frais, moins d’émissions, plus de rencontres — le covoiturage, c’est tout bénéfice !
-Rejoignez dès maintenant la communauté Katxaow et contribuez à rendre les déplacements plus intelligents, plus 
-économiques et plus durables.</p></section>
-    <section class="navigation">
-        
 
-
-    </section>
-    <div class="search-bar">
-    <div class="field">
-        <span class="icon">📍</span>
-        <input type="text" placeholder="Destination">
-    </div>
-
-    <div class="field">
-        <span class="icon">📍</span>
-        <input type="text" placeholder="Départ">
-    </div>
-
-     <div class="label-box">
-        Sélectionner une date
-    </div>
-
-    <div class="field.small">
-        <input type="text" placeholder="JJ / MM/ AAAA">
-    </div>
-
-    <span class="icon">📅</span>
-    <span class="icon">🕒</span>
-
-    <button class="search-btn">
-        Rechercher 🔍
-    </button>
-</div>
-    
-
-    
+</main>
 
 </body>
-
 </html>
