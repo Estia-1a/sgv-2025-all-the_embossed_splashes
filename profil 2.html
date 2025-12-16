@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profil utilisateur</title>
+
+  <style>
+    /* RESET SIMPLE */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #bfbfbf;
+    }
+
+    /* BARRE NAVIGATEUR (MAQUETTE) */
+    .browser {
+      background-color: #d9d9d9;
+      border-bottom: 3px solid #000;
+      padding: 8px;
+    }
+
+    .browser-bar {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .browser-bar input {
+      flex: 1;
+      padding: 6px;
+      border: 2px solid #000;
+      border-radius: 6px;
+    }
+
+    /* PAGE */
+    .page {
+      background-color: #ffffff;
+      margin: 15px;
+      border: 3px solid #000;
+      min-height: calc(100vh - 80px);
+      position: relative;
+    }
+
+    /* BANNIÈRE */
+    .banner {
+      height: 140px;
+      border-bottom: 3px solid #000;
+      background: linear-gradient(
+        160deg,
+        #d52b1e 0%,
+        #d52b1e 40%,
+        #009b48 45%,
+        #009b48 55%,
+        #d52b1e 60%,
+        #d52b1e 100%
+      );
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .avatar {
+      width: 80px;
+      height: 80px;
+      background-color: #000;
+      border-radius: 50%;
+    }
+
+    /* CONTENU */
+    .content {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 32px;
+      padding: 30px;
+    }
+
+    /* COLONNE GAUCHE */
+    .left label {
+      display: grid;
+      grid-template-columns: 180px 1fr;
+      align-items: center;
+      margin-bottom: 14px;
+      font-size: 18px;
+    }
+
+    .left input {
+      padding: 6px;
+      border: 2px solid #000;
+      border-radius: 4px;
+      font-size: 16px;
+    }
+
+    /* COLONNE DROITE */
+    .right p {
+      font-size: 20px;
+      margin-bottom: 8px;
+      margin-top: 12px;
+    }
+
+    .box {
+      display: inline-block;
+      padding: 8px 14px;
+      border: 2px solid #000;
+      background-color: #e6e6e6;
+      font-size: 22px;
+    }
+
+    /* DÉCONNEXION */
+    .logout {
+      position: absolute;
+      right: 20px;
+      bottom: 20px;
+      font-size: 22px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    /* RESPONSIVE SIMPLE */
+    @media (max-width: 800px) {
+      .content {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="browser">
+    <div class="browser-bar">
+      <span>⬅</span>
+      <span>➡</span>
+      <span>✖</span>
+      <span>🏠</span>
+      <input type="text" value="https://site.katxaow.estia.fr" readonly>
+      <span>🔍</span>
+    </div>
+  </div>
+
+  <div class="page">
+
+    <div class="banner">
+      <div class="avatar"></div>
+    </div>
+
+    <div class="content">
+
+      <div class="left">
+        <label>Prénom <input type="text"></label>
+        <label>Nom <input type="text"></label>
+        <label>N° de téléphone <input type="tel"></label>
+        <label>Âge <input type="number"></label>
+        <label>Genre <input type="text"></label>
+        <label>Niveau d'expérience <input type="text"></label>
+      </div>
+
+      <div class="right">
+        <p>Note du profil</p>
+        <div class="box">☆ ☆ ☆ ☆ ☆</div>
+
+        <p>Historique des trajets ⬇ ☰</p>
+
+        <p>Connecté pour la dernière fois le :</p>
+        <div class="box">//</div>
+      </div>
+
+    </div>
+
+    <div class="logout">Déconnexion</div>
+
+  </div>
+
+</body>
+</html>
